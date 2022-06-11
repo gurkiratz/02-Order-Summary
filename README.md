@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Website Screenshot](images/Screenshot.jpg)
+![Website Screenshot](https://github.com/gurkiratz/Order-Summary/blob/main/images/Screeenshot.jpg?raw=true)
 
 ### Links
 

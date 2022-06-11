@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-and-css-grid-F5iD5TwT9o)
 - Live Site URL: [gurkiratz.github.io/Order-Summary](https://gurkiratz.github.io/Order-Summary/)
 
 ## My process

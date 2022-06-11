@@ -1,0 +1,183 @@
+/*
+width - Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+  background-color: #e0e8ff;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container-box {
+  background-color: #fff;
+  width: 450px;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  margin: 20px auto;
+  box-shadow: 0 5px 100px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 16px;
+}
+
+/* ------------------------ */
+/* DIV */
+/* ------------------------ */
+.image {
+  margin-bottom: 20px;
+  width: auto;
+  /* border-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* ------------------------ */
+/* HEADER */
+/* ------------------------ */
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 32px;
+}
+
+.header-text {
+  color: hsl(224, 23%, 55%);
+  width: 75%;
+}
+
+/* ------------------------ */
+/* MAIN */
+/* ------------------------ */
+main {
+  padding: 20px 10px;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: start;
+  align-items: center;
+}
+
+.main-icon {
+  justify-self: center;
+}
+.main-text {
+  justify-self: start;
+  align-self: start;
+  line-height: 1.5;
+  /* font-weight: bold; */
+}
+
+.main-link {
+  justify-self: center;
+}
+
+.main-link:link,
+.main-link:visited {
+  color: hsl(245, 75%, 52%);
+}
+
+.main-link:hover,
+.main-link:active {
+  color: hsl(245, 75%, 65%);
+  text-decoration: none;
+}
+
+/* ------------------------ */
+/* FOOTER */
+/* ------------------------ */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.proceed {
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.proceed:hover {
+  background-color: hsl(245, 75%, 65%);
+}
+
+.proceed:active {
+  background-color: hsl(245, 75%, 70%);
+}
+
+.cancel {
+  background-color: #fff; /*FIXME*/
+}
+
+.cancel:hover,
+.cancel:active {
+  background-color: rgb(247, 247, 247);
+}
+
+aside {
+  color: hsl(224, 23%, 40%);
+  font-size: 12px;
+  text-align: center;
+}
+
+aside a {
+  color: hsl(223, 47%, 23%);
+}
